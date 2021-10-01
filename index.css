@@ -1,0 +1,181 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+header{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 0;
+    box-shadow: 0.5px 0.2px black;
+    padding: 10px;
+    background-color: whitesmoke;
+    margin-top: 0px;
+
+}
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.top-left{
+    padding-left: 25px;
+}
+.icon{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: orangered;
+    font-weight: bold;
+}
+.icon-link{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+.top-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 25px;
+
+}
+.top-right div{
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+
+}
+main{
+    padding-top: 100px;
+}
+section{
+    padding-left: 25px;
+}
+#sec-one{
+    display: flex;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+#sec-one img{
+    right: 5px;
+    border-radius: 50% 25% 35% 20%;
+    margin-left: 200px;
+}
+.sec-headings{
+    color: tomato;
+    font-family: 'Roboto', sans-serif;
+
+}
+.txt-title{
+    font-size: 50px;
+    font-weight: 900px;
+}
+.sub-txt{
+    font-weight: 500;
+    font-size: 20px;
+}
+.btn-buy{
+    padding: 15px;
+    border-radius: 20px;
+
+    background-color: tomato;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+#sec-2{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.sec-txt-div{
+    display: flex;
+    align-items: center;
+}
+.sec-txt-div div{
+    width: 45%;
+}
+.sec-txt-div div h1{
+    font-size: 50px;
+}
+.sec-txt-div div p{
+    font-size: 25px;
+}
+.card-div{
+    display: flex;
+}
+
+.card{
+    width: 30%;
+    padding: 2px;
+    margin: 5px;
+    border: 0.5px solid rgb(224, 219, 219);
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+}
+.card:hover{
+    background-color: rgb(194, 199, 204);
+    border-top: 5px solid orange;
+}
+.card div h1{
+    font-size: 35px;
+    line-height: 2px;
+
+}
+.card div h6{
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.botom-div{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+    padding-left: 0px;
+    border-radius: 25px;
+    background-color: rgb(150, 150, 218);
+
+
+}
+
+.botom-div-card div h1{
+font-size: 45px;
+color: white;
+font-weight: 900;
+
+}
+.chemistry-img{
+    border-radius: 50%;
+}
+.botom-div-card div p{
+font-size: 20px;
+font-weight: 700;
+color: white;
+word-spacing: 1px;
+
+}
+.botom-div-card div button{
+   padding: 10px; 
+   border-radius: 10px;
+   font-size: 15px;
+   font-weight: 700;
+   color: rgb(150, 150, 218);
+}
+#sec-3{
+    background-color: rgb(171, 229, 231);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
